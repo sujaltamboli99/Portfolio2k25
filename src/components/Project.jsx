@@ -122,7 +122,7 @@ const Project = () => {
             tags={['React','TailwindCSS','GSAP']}
             title="Portfolio Website"
             description="A developer portfolio built using React and Tailwind CSS, showcasing projects and skills with smooth UI interactions."
-            liveLink="#"
+            liveLink="https://sujal-portfolio2k25.netlify.app/"
             codeLink="#"
           />
         </div>
