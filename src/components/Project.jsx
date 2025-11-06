@@ -99,7 +99,7 @@ const Project = () => {
             title="RythMix"
             description="A music-based web application offering smooth playback controls and an interactive UI."
             liveLink="https://sujaltamboli99.github.io/RythMix/"
-            codeLink="#"
+            codeLink="https://github.com/sujaltamboli99/RythMix"
           />
         </div>
 
@@ -111,7 +111,7 @@ const Project = () => {
             title="calculator"
             description="Built an interactive calculator with a clean UI to perform basic mathematical operations efficiently."
             liveLink="https://sujaltamboli99.github.io/calculator-project/"
-            codeLink="#"
+            codeLink="https://github.com/sujaltamboli99/calculator"
           />
         </div>
 
@@ -123,7 +123,7 @@ const Project = () => {
             title="Portfolio Website"
             description="A developer portfolio built using React and Tailwind CSS, showcasing projects and skills with smooth UI interactions."
             liveLink="https://sujal-portfolio2k25.netlify.app/"
-            codeLink="#"
+            codeLink="https://github.com/sujaltamboli99/Portfolio2k25"
           />
         </div>
 
