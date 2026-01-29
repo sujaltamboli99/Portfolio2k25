@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import chertNodesImg from '../assets/codenode.jpg';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Rythmix from '../assets/rythmix.png'
+import Shop from "../assets/shop.png"
 import project2 from '../assets/engg info portal.png'
 import cal from '../assets/calculator.png'
 import project3 from '../assets/self.png'
@@ -94,12 +94,12 @@ const Project = () => {
         {/* Card 1 */}
         <div ref={el => cardsRef.current[0] = el}>
           <ProjectCard
-            image={Rythmix}
-            tags={['HTML', 'CSS', 'JS']}
-            title="RythMix"
-            description="A music-based web application offering smooth playback controls and an interactive UI."
-            liveLink="https://sujaltamboli99.github.io/RythMix/"
-            codeLink="https://github.com/sujaltamboli99/RythMix"
+            image={Shop}
+            tags={['React.js' , 'Node.js & Express.js' , 'MongoDB']}
+            title="SHOP.CO"
+            description="End-to-end e-commerce platform with React, Node.js, Express & MongoDB featuring auth, cart, orders, and Razorpay payments."
+            liveLink="https://www.linkedin.com/posts/sujaltamboli_fullstackdevelopment-ecommercewebsite-reactjs-activity-7412017135037718528-fqwb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFQ8Wi8Bs_e9HlQ1rb8aoSfLBGjw6FOP7Rk"
+            codeLink="https://github.com/sujaltamboli99/SHOP.CO"
           />
         </div>
 
