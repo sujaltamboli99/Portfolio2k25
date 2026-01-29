@@ -8,6 +8,8 @@ import Shop from "../assets/shop.png"
 import project2 from '../assets/engg info portal.png'
 import cal from '../assets/calculator.png'
 import project3 from '../assets/self.png'
+import SIH from "../assets/sih.png"
+import Rythmix from"../assets/rythmix.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -106,24 +108,24 @@ const Project = () => {
         {/* Card 2 */}
         <div ref={el => cardsRef.current[1] = el}>
           <ProjectCard
-            image={cal}
-            tags={['HTML', 'CSS', 'JS']}
-            title="calculator"
-            description="Built an interactive calculator with a clean UI to perform basic mathematical operations efficiently."
-            liveLink="https://sujaltamboli99.github.io/calculator-project/"
-            codeLink="https://github.com/sujaltamboli99/calculator"
+            image={SIH}
+            tags={['React.js' , 'Node.js & Express.js' , 'MongoDB']}
+            title="स्वास्थ्य sutra"
+            description="Cleared the internal round by building a secure migrant health record management system with disease tracking, analytics, and an admin dashboard using the MERN stack, gaining strong real-world problem-solving and teamwork experience."
+            liveLink="https://youtu.be/FePRGu5PKtE?si=QbzqTGi6rnfiiH--"
+            codeLink="https://github.com/dhairya-jain-7971/SIH_25083_Bazinga"
           />
         </div>
 
         {/* Card 3 */}
         <div ref={el => cardsRef.current[2] = el}>
           <ProjectCard
-            image={project3}
-            tags={['React','TailwindCSS','GSAP']}
-            title="Portfolio Website"
-            description="A developer portfolio built using React and Tailwind CSS, showcasing projects and skills with smooth UI interactions."
-            liveLink="https://sujal-portfolio2k25.netlify.app/"
-            codeLink="https://github.com/sujaltamboli99/Portfolio2k25"
+            image={Rythmix}
+            tags={['HTML' , 'css' , 'js']}
+            title="Rythmix"
+            description="A music-based web project focused on clean design, smooth interactivity, and user experience, while applying core JavaScript concepts to build real, functional features."
+            liveLink="https://www.linkedin.com/posts/sujaltamboli_javascript-webdevelopment-frontend-activity-7362733668345290752-8sx8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFQ8Wi8Bs_e9HlQ1rb8aoSfLBGjw6FOP7Rk"
+            codeLink="https://github.com/sujaltamboli99/RythMix"
           />
         </div>
 
